@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Reset</title>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <script src="reset.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="screen_content">
+            <h2>Password Reset</h2>
+            <form class="password-reset" method="post">
+                <input type="hidden" id="reset-token" name="reset-token" value="YOUR_RESET_TOKEN_HERE">
+                <label for="new-password">New Password:</label>
+                <input type="password" id="new-password" name="new-password" required><br>
+                <button type="submit">Reset Password</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
