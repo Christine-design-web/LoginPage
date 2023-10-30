@@ -1,13 +1,19 @@
 /* FILEPATH: /c:/Users/wange/Alx/LoginPage/index.css */
 
 /* Center the login form */
+
+body {
+    background-image: url("./assests/desert.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /*background-color: pink;*/
 }
 
 .login{
